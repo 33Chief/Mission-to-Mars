@@ -1,8 +1,11 @@
 NASA-web-scraping
+
+
 Web Scraping
 The Web Scraping Notebook notebook contains the web scraping code used to to get the following information:
 
 NASA Mars News
+
 Scraped the Mars News Site and collected the latest News Title and Paragraph Text.
 JPL Mars Space Images - Featured Image
 Visited the url for the Featured Space Image site and used splinter to navigate the site and find the image url for the current Featured Mars Image.
@@ -12,6 +15,8 @@ Visited the Mars Facts webpage and used Pandas to scrape the table containing fa
 Used Pandas to convert the data to a HTML table string.
 
 Mars Hemispheres
+
+
 Visited the astrogeology site to obtain high resolution images for each of Mar's hemispheres.
 Appended the dictionary with the image url string and the hemisphere title to a list. This list contains one dictionary for each hemisphere.
 MongoDB and Flask Application
